@@ -1,26 +1,25 @@
 body {
     background-color: lightgrey;
 }
+:root{
+--color-white:white;
+}
+
+.text{
+color: var(--color-white);
+
+}
+.higher-lower-text{
+color: black;
+}
+
+
 
 header {
     display: flex;
-    /* Use Flexbox for layout */
     align-items: center;
-    /* Vertically center items */
     text-align: center;
     justify-content: center;
-}
-
-.Red-green-arrow {
-    width: 10%;
-    /* Maintain aspect ratio */
-
-    align-items: center;
-}
-
-.Red-green-arrow2 {
-    width: 10%;
-    align-items: center;
 }
 
 .dices {
