@@ -1,16 +1,16 @@
-body {
-    background-color: lightgrey;
-}
-:root{
---color-white:white;
+
+
+:root {
+    --color-white: white;
 }
 
-.text{
-color: var(--color-white);
+.text {
+    color: var(--color-white);
 
 }
-.higher-lower-text{
-color: black;
+
+.higher-lower-text {
+    color: black;
 }
 
 
@@ -86,5 +86,13 @@ button {
     background-color: darkblue;
     color: white;
     border: 5px solid black;
-    height: 50px
+    height: 70px;
+    border-radius: 20px;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+    border: 5px solid black;
+    height: 70px;
 }
