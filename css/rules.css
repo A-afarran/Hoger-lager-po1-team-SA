@@ -13,16 +13,21 @@ h2{
 li{
     text-align: center;
 }
-
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 button{
-
     background-color: darkblue;
-    border: 3px solid black;
     color: white;
-    height: 30px;
-    display: inline-block;
-    text-align: center;
-    position: relative;
+    border: 5px solid black;
+    height: 70px;
+    width: 32%;
+    border-radius: 20px;
+    font-size: large;
+    width: 300px;
+
 }
 a{
     color: white;
