@@ -83,7 +83,7 @@ body {
     background-color: lightslategray
 }
 
-button {
+.go-button,.lower-button,.higher-button,.dice-button {
     background-color: darkblue;
     color: white;
     border: 5px solid black;
@@ -92,9 +92,42 @@ button {
     font-size: large;
 }
 
-button:hover {
+.go-button:hover{
     color: black;
     background-color: white;
+}
+.lower-button:hover{
+    color: black;
+    background-color: white;
+}
+.higher-button:hover{
+    color: black;
+    background-color: white;
+}
+.dice-button:hover{
+    color: black;
+    background-color: white;
+}
+.rule-button{
+    background-color: darkblue;
+    color: white;
     border: 5px solid black;
     height: 70px;
+    width: 32%;
+    border-radius: 20px;
+    font-size: large;
+}
+.rule-link{
+    width: 100%;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-button-rules {
+    width: 100%;              
+    display: flex;            
+    justify-content: center;
 }

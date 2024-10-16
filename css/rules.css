@@ -1,0 +1,32 @@
+header{
+    text-align: center;
+}
+body{
+ background-color: lightslategray;   
+}
+ul{
+    list-style: none;
+}
+h2{
+    border: 2px solid black;
+}
+li{
+    text-align: center;
+}
+
+button{
+
+    background-color: darkblue;
+    border: 3px solid black;
+    color: white;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+a{
+    color: white;
+    position: static;
+    font-size: large;
+   
+}
